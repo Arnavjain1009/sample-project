@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Obstacle Jumper</title>
+    <style>
+      #game-container {
+        position: relative;
+        margin: 0 auto;
+        border: 2px solid black;
+      }
+      #game-container canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      #score {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      #lives {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="game-container"></div>
+    <div id="score">Score: 0</div>
+    <div id="lives">Lives: 100</div>
+    <script src="game.js"></script>
+  </body>
+</html>
